@@ -1,2 +1,3 @@
-[![Matt's GitHub stats](https://github-readme-stats.vercel.app/api?username=liquidpt&show_icons=true&theme=merko&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liquidpt&show_icons=true&theme=merko&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Matt's GitHub stats](images/contribs.svg)](https://github.com/cicirello/user-statistician)
+[![Repositories](images/repos.svg)](https://github.com/cicirello/user-statistician)
+[![Top Langs](images/languages.svg)](https://github.com/cicirello/user-statistician)

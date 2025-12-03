@@ -26,7 +26,8 @@ jobs:
       uses: cicirello/user-statistician@v1
       with:
         image-file: images/languages.svg
-        colors: dark
+        colors: dark-dimmed
+        include-title: false
         hide-keys: general, contributions, repositories
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -35,7 +36,8 @@ jobs:
       uses: cicirello/user-statistician@v1
       with:
         image-file: images/contribs.svg
-        colors: dark
+        custom-title: Matt's GitHub Statistics
+        colors: dark-dimmed
         hide-keys: general, languages, repositories
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -44,7 +46,8 @@ jobs:
       uses: cicirello/user-statistician@v1
       with:
         image-file: images/repos.svg
-        colors: dark
+        colors: dark-dimmed
+        include-title: false
         hide-keys: general, contributions, languages
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
